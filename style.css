@@ -1,0 +1,97 @@
+body{
+	background: #FDCEB9;
+	margin: 20px;
+}
+
+#header{
+	user-select: none;
+	font-family: sans-serif;
+	font-size: 23px;
+	color: #632626;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.food_container{
+	border: 4px groove #9D5353;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+	margin-top: 60px;
+	padding: 11px;
+}
+
+.item_text{
+	font-family: sans-serif;
+}
+
+
+#container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+#tabs{
+	cursor: pointer;
+}
+#welcome{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px groove #9D5353;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+#bg{
+	box-shadow: 10px 10px 15px black;
+	align-self: center;
+	height: 350px;
+	width: auto;
+}
+
+#tabs{
+	display: flex;
+	gap: 20px;
+}
+
+#contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	font-family: sans-serif;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 100px;
+	gap: 15px;
+}
+
+#icons{
+	align-self: center;
+}
+
+#footer{
+	font-family: sans-serif;
+	font-size: 18px;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}

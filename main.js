@@ -19,7 +19,7 @@ function home(){
 
 	const image=document.createElement("img");
 	image.id='bg';
-	image.src="../dist/imgs/bg.jpg";
+	image.src="imgs/bg.jpg";
 
 	container.appendChild(welcome);
 	container.appendChild(image);
@@ -40,12 +40,12 @@ __webpack_require__.r(__webpack_exports__);
 function menu(){
 	const container=document.createElement("div");
 	container.classList.add('food_container');
-	const item1=createItem("../dist/imgs/food/food1.jpg","Burger with Coke!");
-	const item2=createItem("../dist/imgs/food/food2.jpg","Good looking Pasta!");
-	const item3=createItem("../dist/imgs/food/food3.jpg","Tasty yellow something!");
-	const item4=createItem("../dist/imgs/food/food4.jpg","Healthy looking mess!");
-	const item5=createItem("../dist/imgs/food/food5.jpg","Pancakes!");
-	const item6=createItem("../dist/imgs/food/food6.jpg","Donuts!");
+	const item1=createItem("imgs/food/food1.jpg","Burger with Coke!");
+	const item2=createItem("imgs/food/food2.jpg","Good looking Pasta!");
+	const item3=createItem("imgs/food/food3.jpg","Tasty yellow something!");
+	const item4=createItem("imgs/food/food4.jpg","Healthy looking mess!");
+	const item5=createItem("imgs/food/food5.jpg","Pancakes!");
+	const item6=createItem("imgs/food/food6.jpg","Donuts!");
 
 	container.appendChild(item1);
 	container.appendChild(item2);
@@ -92,7 +92,7 @@ function contact(){
 	info.textContent="Please contact us through these platforms:";
 
 	const icons=document.createElement("img");
-	icons.src="../dist/imgs/icons.png";
+	icons.src="imgs/icons.png";
 	icons.height=100;
 	icons.id='icons';
 
